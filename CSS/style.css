@@ -1,27 +1,40 @@
-h2:hover{
-    color:red;
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
 }
-
-.title{
-    color:red;
+body{
+    background: #020412;
 }
+.header{
+    width:100%;
+    height: 100vh;
+    color:#fff;
+    padding:0 8.5%;
+    position:relative;
 
-.subtitle{
-    color:blue
 }
-
-#contact-us{
-    color:green;
+nav{
+    display:flex;
+    width:100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:30px 0 10px;
 }
-
-li:first-child{
-    color:steelblue;
+.image{
+    width:80px;
+    cursor:pointer;
+    padding-left: 20px;
+    text-align: left;
 }
-
-#google-link:link{
-    color:red;
+nav ul{
+    flex:1;
+    text-align:right;
+    padding-right: 40px;
 }
-
-#google-link:visited{
-    color:purple;
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin:10px 30px;
 }
